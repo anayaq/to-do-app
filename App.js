@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { View, StyleSheet, Text, TextInput, KeyboardAvoidingView, Platform, TouchableOpacity, Keyboard } from 'react-native';
 import MyList from './components/MyList';
 
+/*new commit has been created*/
 export default function App() {
   const [listitem, addToListItem] = useState();
  const [listitems, addToListItems] = useState([]);
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
     
   },
   wrapper: {
-    paddingTop: 80,
+    paddingTop: 81,
     paddingHorizontal: 20,
   },
   text: {
